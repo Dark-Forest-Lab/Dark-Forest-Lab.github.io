@@ -1,4 +1,6 @@
 # Dark-Forest-Lab.github.io
 ## 简介
 ### 这是Dark Forest Lab的官方网站[网址](https://www.dark-forest-lab.github.io "Dark Forest Lab官网")
-### 依然在开发阶段，有点简陋和bug
+### 依然在开发阶段，有点简陋而且bug非常多，希望大家多多反馈bug和问题。
+#### 邮箱
+>qianwailee@qq.com
