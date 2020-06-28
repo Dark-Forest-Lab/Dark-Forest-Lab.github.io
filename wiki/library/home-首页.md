@@ -2,9 +2,9 @@
 
 <br>
 
-![欢迎使用amWiki！](amWiki/images/logo.png "欢迎使用amWiki！")  
+![欢迎来到Dark Forest Lab中文版wiki](https://dark-forest-lab.github.io/images/df2.png "欢迎")  
 
-### 欢迎使用 amWiki 轻文库!
-—— **amWiki 致力于让大家可以更简单、更便捷的建设个人和团队文库！**  
+### 欢迎使用来到中文版的Dark Forest Lab!
+—— **目录请见左侧**  
 
 [ [amWiki 官网文档中心](https://amwiki.org/doc/) ]
