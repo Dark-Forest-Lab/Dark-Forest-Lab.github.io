@@ -79,8 +79,8 @@
                         <div class="search-update">
                             <input type="button" id="searchUpdate" value="更新所有缓存" />
                             <div class="text">
-                                <p>上次完全更新：<time id="cacheLasttime">0000-00-00 00:00:00</time></p>
-                                <p>文档总数：<b id="cacheDocTotal">0</b> <i>/</i> <span>已缓存：<i id="cacheState">0%</i></span></p>
+                                <p>Last update：<time id="cacheLasttime">0000-00-00 00:00:00</time></p>
+                                <p>Text：<b id="cacheDocTotal">1</b> <i>/</i> <span>Cached：<i id="cacheState">0%</i></span></p>
                             </div>
                         </div>
                         <h2>Search in the wiki</h2>
@@ -91,7 +91,7 @@
                         <div class="search-results" id="results">
                             <div class="search-result-message" id="resultMsg"></div>
                             <ul class="search-list"></ul>
-                            <div class="search-result-more" id="resultMore">显示更多</div>
+                            <div class="search-result-more" id="resultMore">more</div>
                             <script id="template:searchResult" type="text/html">
                                 <li class="search-item">
                                     <a href="?file={{path}}">
@@ -99,8 +99,8 @@
                                             <strong>{{title}}</strong> {{api}} {{content}}
                                         </div>
                                         <div class="bottom">
-                                            <p>位置：<span>{{path}}</span></p>
-                                            <div class="time">最后缓存于
+                                            <p>place：<span>{{path}}</span></p>
+                                            <div class="time">Finally cached in
                                                 <time>{{time}}</time>
                                             </div>
                                         </div>
@@ -121,11 +121,11 @@
                     <svg>
                         <use xlink:href="#icon:contents"></use>
                     </svg>
-                    <span>目录</span>
+                    <span>menu</span>
                 </div>
                 <div class="contents-list">
                     <p>
-                        <a id="contentsTitle" href="#客户日志流水接口示例">客户日志流水接口示例</a>
+                        <a id="contentsTitle" href="#客户日志流水接口示例">Customer log pipeline interface example</a>
                     </p>
                     <div class="markdown-contents"></div>
                 </div>
@@ -137,7 +137,7 @@
                         <use xlink:href="#icon:backTop"></use>
                     </svg>
                 </a>
-                <a class="back-text" href="#">返回顶部</a>
+                <a class="back-text" href="#">Back to top</a>
             </div>
         </aside>
         <!-- 图片预览 -->
@@ -148,7 +148,7 @@
                 <li class="prev off">Prev</li>
                 <li class="next">Next</li>
                 <li class="original">1:1</li>
-                <li class="suit">适合</li>
+                <li class="suit">fit</li>
             </ul>
         </section>
         <footer>
@@ -186,7 +186,7 @@
         <!-- 低版本浏览器警告 -->
         <div id="lowBrowser">
             <div></div>
-            <p><span>您的浏览器版本过低，不支持浏览本Wiki，请升级或更换您的浏览器再试！</span></p>
+            <p><span>Your browser version is too low to support this Wiki. Please upgrade or replace your browser and try again!</span></p>
             <script>
                 (function(win) {
                     var notice = document.getElementById('lowBrowser');
