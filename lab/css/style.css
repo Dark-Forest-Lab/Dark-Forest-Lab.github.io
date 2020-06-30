@@ -49,7 +49,7 @@ body {
 	margin: 0 0 0 15px;
 }
 #header ul li a {
-	color: #588181;
+	color: #2a4b60;
 	display: block;
 	height: 37px;
 	line-height: 40px;
@@ -60,7 +60,7 @@ body {
 	text-transform: uppercase;
 }
 #header ul li a:hover {
-	color: #254c4c;
+	color: #4d6679;
 }
 #header ul li.selected {
 	background: url(../images/bg-menu.png) no-repeat top center;
